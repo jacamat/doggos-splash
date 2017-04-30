@@ -1,7 +1,7 @@
 
 /* ==========================================================================
    Style sheet for Archer - Responsive Landing Page
-   ========================================================================== 
+   ==========================================================================
 
    Version: 1.0
    Author: Pixininja
@@ -11,8 +11,8 @@
 
 /* ==========================================================================
    Table Of Content
-   ========================================================================== 
-   
+   ==========================================================================
+
     1.General
     2.Hero section
     3.Navbar
@@ -45,16 +45,16 @@
     30.Signup Page
     31.Signin Page
     32.Small devices (tablets, 768px and up)
-    33. Medium devices (desktops, 992px and up) 
-  
+    33. Medium devices (desktops, 992px and up)
+
 */
-   
-  
+
+
 
 /* ==========================================================================
    1.General
    ========================================================================== */
-   
+
 html.sl-page,
 body.sl-page { height: 100%; }
 
@@ -86,13 +86,13 @@ h6 {
 }
 
 a {
-  color: #31aff5;
+  color: #25a3c3;
   transition: all 0.3s ease-in-out;
 }
 
 a:hover,
 a:focus {
-  color: #30a7e9;
+  color: #25a3c3;
   text-decoration: none;
 }
 
@@ -115,8 +115,8 @@ strong { font-weight: 700; }
 
 /* ==========================================================================
    2.Hero section
-   ========================================================================== */ 
-   
+   ========================================================================== */
+
 .hero-section {
   background: url(../img/bg-hero.jpg) center center no-repeat;
   background-size: cover;
@@ -168,7 +168,7 @@ strong { font-weight: 700; }
   font-size: 14px;
   text-align: center;
   text-decoration: none;
-  background-color: #31aff5;
+  background-color: #25a3c3;
   line-height: 1.5;
   border: none;
   border-radius: 4px;
@@ -180,7 +180,7 @@ strong { font-weight: 700; }
 
 .btn:hover {
   color: #fff;
-  background-color: #30a7e9;
+  background-color: #3dc9d6;
 }
 
 .btn:active,
@@ -189,7 +189,7 @@ strong { font-weight: 700; }
 .btn:active:focus {
   color: #fff;
   outline: none;
-  background-color: #30a7e9;
+  background-color: #25a3c3;
 }
 
 .btn:active { opacity: .8; }
@@ -203,7 +203,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    3.Navbar
    ========================================================================== */
-   
+
 .navbar-default {
   background-color: transparent;
   border: none;
@@ -243,9 +243,9 @@ strong { font-weight: 700; }
 .navbar-nav > li,
 .navbar-header { float: left; }
 
-.navbar-right { float: right!important; }
+.navbar-right { float: right !important; }
 
-.navbar-nav { margin: 6.5px -15px!important; }
+.navbar-nav { margin: 6.5px !important; }
 
 .affix {
   position: fixed;
@@ -302,26 +302,26 @@ strong { font-weight: 700; }
 .navbar-nav .active .fa-times:hover,
 .navbar-nav .active .fa-times:active,
 .navbar-nav .active .fa-times:focus {
-  color: #31aff5;
+  color: #25a3c3;
   background-color: transparent;
 }
 
 .affix .navbar-nav > li > a.btn-nav {
-  background: #31aff5;
+  background: #25a3c3;
   color: #fff;
 }
 
 .navbar-default.affix .navbar-nav > li > .btn-nav:hover,
 .navbar-default.affix .navbar-nav > li > .btn-nav:active,
 .navbar-default.affix .navbar-nav > li > .btn-nav:focus {
-  background: #30a7e9;
+  background: #25a3c3;
   color: #fff;
 }
 
 /* ==========================================================================
    4.Navbar mobile
    ========================================================================== */
-   
+
 .navbar-nav .fa-2x { font-size: 1.5em; }
 
 .navbar-nav #toggle {
@@ -434,13 +434,13 @@ strong { font-weight: 700; }
 /* ==========================================================================
    5.How it works
    ========================================================================== */
-   
+
 .how-it-works .row:not(:last-child) { margin-bottom: 3em; }
 
 .step-number {
   width: 68px;
   height: 68px;
-  background: #31aff5;
+  background: #25a3c3;
   border-radius: 50%;
   color: #fff;
   font-size: 24px;
@@ -449,6 +449,16 @@ strong { font-weight: 700; }
   margin: auto;
 }
 
+#browse-classes {
+  padding-top: 80px;
+}
+
+#book-training {
+  padding-top: 80px;
+}
+#fun {
+  padding-top: 80px;
+}
 .step-number span {
   position: absolute;
   left: 50%;
@@ -526,7 +536,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    7. video intro
    ========================================================================== */
-   
+
 .features,
 .cta,
 .site-footer { background-color: #f9f9f9; }
@@ -618,7 +628,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    8. User reviews
    ========================================================================== */
-   
+
 .center-block[class^="col-"] { float: none; }
 
 .user-reviews,
@@ -676,7 +686,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    9.Learn more
    ========================================================================== */
-   
+
 .learn-more .container > .row {
   margin-bottom: 3.75em;
   border-bottom: 1px solid #eeeff0;
@@ -756,14 +766,14 @@ blockquote cite i { font-weight: 400; }
 .cta .btn:focus,
 .cta .btn:active:hover,
 .cta .btn:active:focus {
-  background: #31aff5;
+  background: #25a3c3;
   color: #fff;
 }
 
 /* ==========================================================================
    11.New feature
    ========================================================================== */
-   
+
 .new-feature h2 {
   margin: 0 0 24px;
   font-size: 30px;
@@ -911,7 +921,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    12.cta into
    ========================================================================== */
-   
+
 .cta-info .section-spacing {
   background: #31aff5;
   padding: 3.75em 2em;
@@ -951,7 +961,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    13.Pricing
    ========================================================================== */
-   
+
 .pricing .row > div[class^="col-"] { margin-bottom: 2.25em; }
 
 .pricing .row > div[class^="col-"]:first-child { margin-bottom: 3.9375em; }
@@ -1065,7 +1075,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    15.FAQ
    ========================================================================== */
-   
+
 .faq-list { margin: 0 0 .75em; }
 
 .faq-list .col-sm-6 { margin-bottom: 2.25em; }
@@ -1110,7 +1120,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    16.cta signup form
    ========================================================================== */
-   
+
 .cta-dark { background: #212a3e; }
 
 .cta-dark .section-header h2 { color: #fff; }
@@ -1229,7 +1239,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
     17.clients
    ========================================================================== */
-   
+
 .trusted-clients h2 {
   font-size: 30px;
   text-align: center;
@@ -1256,7 +1266,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
   18.Product statistics
    ========================================================================== */
-   
+
 .product-statistics {
   padding-top: 3em;
   margin-top: 3em;
@@ -1294,7 +1304,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    19.Video tour
    ========================================================================== */
-   
+
 .video-tour {
   background: url(../img/bg-video-tour.jpg) center center no-repeat;
   background-size: cover;
@@ -1483,7 +1493,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    21.cta footer
    ========================================================================== */
-   
+
 .cta-footer h2 {
   font-size: 32px;
   color: #fff;
@@ -1520,7 +1530,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
     23.App download
    ========================================================================== */
-   
+
 .app-download {
   background: url(../img/bg-app.jpg) right center no-repeat;
   background-size: cover;
@@ -1560,7 +1570,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
     24.Features cta
    ========================================================================== */
-   
+
 .features-cta { overflow-x: hidden; }
 
 .feature-cta-list { margin: 48px 0 36px; }
@@ -1572,10 +1582,10 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
     25.Site footer
    ========================================================================== */
-   
-   
 
-   
+
+
+
 .site-footer > .container > .row:first-child {
   margin-bottom: 3em;
   padding-bottom: 3em;
@@ -1724,9 +1734,9 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    26.Copyright terms
    ========================================================================== */
-   
-   
-   
+
+
+
 .copyright-terms { padding: 2.25em 0; }
 
 .copyright-terms small,
@@ -1816,7 +1826,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    28.site policy modal
    ========================================================================== */
-   
+
 .site-policy .modal-content { padding: 1.5em; }
 
 .site-policy .modal-header {
@@ -1838,7 +1848,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    29.Contact form
    ========================================================================== */
-   
+
 #modal-contact-form .modal-body { padding: 3em 1em; }
 
 .contact-form .section-header { margin-bottom: 3em; }
@@ -1882,7 +1892,7 @@ blockquote cite i { font-weight: 400; }
    30.Signup Page
    ========================================================================== */
 
-   
+
 .content-wrapper {
   background: url(../img/bg-form-page.jpg) center center no-repeat;
   background-size: cover;
@@ -1971,7 +1981,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    32.Small devices (tablets, 768px and up)
    ========================================================================== */
-   
+
 @media (min-width: 768px) {
 
 h1,
@@ -2133,9 +2143,9 @@ h6,
 }
 
 /* ==========================================================================
-   33. Medium devices (desktops, 992px and up) 
+   33. Medium devices (desktops, 992px and up)
    ========================================================================== */
-   
+
 @media (min-width: 992px) {
 
 .welcome-message { padding: 16.5em 0; }
