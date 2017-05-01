@@ -141,7 +141,7 @@ strong { font-weight: 700; }
   right: 0;
 }
 
-.hero-section::before { background: rgba(17, 17, 17, 0.38); }
+.hero-section::before { background: rgba(94, 103, 106, 0.2); }
 
 .welcome-message { padding: 10.5em 15px 9em; }
 
@@ -149,6 +149,7 @@ strong { font-weight: 700; }
 .welcome-message h2 {
   color: #fff;
   line-height: 1.35;
+  text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
 }
 
 .welcome-message h1 {
@@ -447,17 +448,6 @@ strong { font-weight: 700; }
   font-weight: 700;
   position: relative;
   margin: auto;
-}
-
-#browse-classes {
-  padding-top: 80px;
-}
-
-#book-training {
-  padding-top: 80px;
-}
-#fun {
-  padding-top: 80px;
 }
 .step-number span {
   position: absolute;
